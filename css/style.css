@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(rgb(163, 230, 39), rgb(255, 255, 255));
+    height: 100vh;
+}
+
+h1{
+    color: darkred;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    border: 1px solid azure;
+    border-radius: 15px;
+    width: 985px;
+    margin: auto;
+    background-color: azure;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.message{
+    margin: 15px 5px;
+    border: 2px solid black;
+    background-color: springgreen;
+    border-radius: 15px;
+    padding: 10px 10px;
+    width: 24%;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp{
+    font-size: 20px;
+    font-family: monospace;
+    width: 92%;
+    height: 30px;
+    border: 2px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    height: 30px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
